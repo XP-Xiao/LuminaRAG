@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# 个人学习计划，不入库
+LEARNING_PLAN.md
+
+# Virtual environments
+.venv
+.env
+
+#docker files
+volumes/
+
+# OS files
+.DS_Store
+data/
+.worktrees/
+
+# Agent instructions
+AGENTS.md
+
+# Node / Frontend development
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# opencode 项目级技能
+.opencode/
