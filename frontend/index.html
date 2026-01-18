@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="lumina助手 — 可追溯的知识库智能工作台">
+    <meta name="theme-color" content="#f7f7f5">
+    <link id="favicon" rel="icon" type="image/png" href="/lumina.png">
+    <title>lumina助手 · Knowledge Copilot</title>
+    <script>
+      (function () {
+        var t = localStorage.getItem('luminarag-theme') === 'dark' ? 'dark' : 'light';
+        document.documentElement.dataset.theme = t;
+        document.documentElement.style.colorScheme = t;
+        var fav = document.getElementById('favicon');
+        if (fav) fav.href = t === 'dark' ? '/lumina-white.png' : '/lumina.png';
+      })();
+    </script>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
