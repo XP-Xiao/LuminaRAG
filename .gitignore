@@ -6,6 +6,9 @@ dist/
 wheels/
 *.egg-info/
 
+# RAG 评测运行产物（观测/报告，带真实时间戳，不入库）
+.artifacts/
+
 # 个人学习计划，不入库
 LEARNING_PLAN.md
 
